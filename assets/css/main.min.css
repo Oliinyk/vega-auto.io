@@ -7023,25 +7023,6 @@ ol
     -webkit-mask-image: url('../img/icons/youtube.svg');
             mask-image: url('../img/icons/youtube.svg');
 }
-.icn-mask-viber
-{
-    width: 24px;
-    height: 24px;
-
-    background-color: #000;
-
-    -webkit-mask-image: url('../img/icons/viber.svg');
-            mask-image: url('../img/icons/viber.svg');
-}
-.icn-mask-google_map {
-    width: 24px;
-    height: 24px;
-
-    background-color: #000;
-
-    -webkit-mask-image: url('../img/icons/google_map.svg');
-            mask-image: url('../img/icons/google_map.svg');
-}
 .icn-mask-twitter
 {
     width: 24px;
