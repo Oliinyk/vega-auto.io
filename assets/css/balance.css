@@ -1,0 +1,273 @@
+.section-balance .filter-form {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 0 20px;
+}
+.section-balance .buttons_list {
+	margin-bottom: 24px;
+}
+.section-balance .filter-form__item {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	max-width: 440px;
+}
+.section-balance .filter-form__item:last-child {
+	align-items: center;
+}
+.section-balance .filter-form__label {
+	width: 100%;
+}
+.section-balance .filter-form__date {
+	max-width: 150px;
+	font-size: 14px;
+	max-height: 30px;
+	line-height: 1.5;
+}
+.section-balance .filter-form__item .button {
+	width: auto;
+	padding: 0 19px;
+	height: 30px;
+}
+.section-balance .filter-form__item .button .button__text {
+	font-size: 14px;
+	line-height: 1;
+}
+.section-balance .orders__table-cell-date {
+	width: 13.5%;
+}
+.section-balance .orders__group-wrap {
+	display: flex;
+	max-width: 350px;
+}
+.section-balance .orders__table-cell-group {
+	width: 36%;
+}
+.section-balance .orders__table-cell-parts {
+	width: 20%;
+}
+.section-balance .orders__table-cell-status,
+.section-balance .orders__table-cell-btn {
+	width: 21%;
+	margin: 0 0 0 auto;
+}
+.section-balance .table__body-cell {
+	font-size: 14px;
+	line-height: 2.3;
+}
+.section-balance .orders__table-cell-number {
+	width: 27%;
+	padding: 7px 15px 7px 25px;
+	font-weight: 500;
+	font-size: 16px;
+	text-align: left;
+}
+.section-balance .consumption-wrap {
+	display: flex;
+	width: 100%;
+}
+.section-balance .orders__table-cell-number img {
+	margin: 0 0 0 auto;
+}
+.section-balance .orders__table-cell-number .consumption-item {
+	margin-left: 12%;
+}
+.section-balance .tbrands__table tr td {
+	text-align: left;
+	line-height: 2.3;
+}
+.section-balance tr:last-child td{
+	font-weight: 600;
+}
+.section-balance .info-list {
+	margin: 25px 0 0 auto;
+	max-width: 300px;
+}
+.section-balance .info-list li {
+	display: flex;
+	padding-bottom: 7px;
+}
+.section-balance .info-title {
+	display: flex;
+	width: 100%;
+	max-width: 170px;
+}
+.section-balance .info-price {
+	font-weight: 600;
+}
+
+
+@media (min-width: 768px) {
+	.section-balance .orders__table-cell-operations,
+	.section-balance .opart__btn-toggle .icn-mask,
+	.section-balance .orders__table-cell-showmob,
+	.section-balance .opart__btn {
+		display: none;
+	}
+}
+@media (max-width: 1200px) {
+	.section-balance .orders__table-cell-status,
+	.section-balance .orders__table-cell-btn {
+		width: 25%;
+	}
+}
+@media (max-width: 991px) {
+	.section-balance .tbrands__table tr td {
+		line-height: 1.4;
+		position: relative;
+	}
+	.section-balance .orders__table-cell-parts {
+		width: 23%;
+	}
+	.section-balance .orders__table-cell-status,
+	.section-balance .orders__table-cell-btn {
+		width: 29%;
+	}
+}
+@media (max-width: 767px) {
+	.section-balance .filter-form {
+		flex-wrap: wrap;
+	}
+	.section-balance .filter-form__item .button.button_green {
+		margin-bottom: 42px;
+	}
+	.section-balance .table__head {
+		opacity: 1;
+		position: relative;
+		transform: inherit;
+		visibility: visible;
+	}
+	.section-balance .filter-form {
+		margin: 0 0 28px;
+	}
+	.section-balance .filter-form__date {
+		max-width: 132px;
+	}
+	.section-balance tr th:nth-child(n+4),
+	.section-balance tr:not(:last-child) td:nth-child(n+4),
+	.tbrands__table tbody tr:last-child .orders__table-cell-number,
+	.section-balance .orders__table-cell-number img,
+	.tbrands__table tbody tr:last-child td:nth-child(n+5) {
+		display: none;
+	}
+	.section-balance .orders__table-cell-number {
+		width: 30%;
+		text-align: left;
+		padding: 7px 15px 7px 12px;
+		font-size: 14px;
+		font-weight: 400;
+	}
+	.section-balance .orders__table-cell-date {
+		width: 15%;
+	}
+	.section-balance .orders__table-cell-operations {
+		width: 35%;
+	}
+	.section-balance .tbrands__table tr td {
+		padding: 15px 8px;
+	}
+	.section-balance .orders__group-wrap {
+		flex-direction: column;
+	}
+	.section-balance .tbrands__table tbody tr:last-child .orders__table-cell-date {
+		padding-left: 8%;
+	}
+	.section-balance .opart__btn-toggle {
+		position: absolute;
+		top: 0;
+		right: 0;
+		max-width: 40px;
+		border: none;
+		background-color: transparent;
+	}
+	.section-balance .info-block__popup {
+		background-color: #fff;
+		z-index: 9;
+		padding: 5px;
+		line-height: 1.5;
+		font-weight: 400;
+	}
+	.section-balance .opart__btn-toggle .icn-mask {
+		display: block;
+		width: 4px;
+	}
+	.section-balance .info-list {
+		margin: 25px auto;
+	}
+	.section-balance .tbrands__table thead th {
+		font-size: 16px;
+	}
+	.section-balance .orders__table-cell-parts,
+	.section-balance .orders__table-cell-status, 
+	.section-balance .orders__table-cell-btn {
+		width: 100%;
+	}
+	.section-balance .orders__table-cell-status {
+		color: red;
+	}
+	.section-balance .orders__table-cell-parts {
+		color: green;
+	}
+	.section-balance .orders__table-cell-time {
+		color: #aaa;
+	}
+}
+@media (max-width: 430px) {
+	.section-balance .filter-form__item {
+		width: 100%;
+	}
+	.section-balance .filter-form__date {
+		max-width: 45%;
+	}
+	.section-balance .filter-form__item:last-child .button {
+		margin-top: 20px;
+	}
+	.section-balance .filter-form__item .button {
+		max-width: 100%;
+		width: 100%;
+		justify-content: center;
+	}
+	.section-balance .consumption-wrap .num {
+		display: none;
+	}
+	.section-balance .orders__table-cell-number .consumption-item {
+		margin: 0;
+	}
+	.section-balance .table_border {
+		border: none;
+	}
+	.section-balance .tbrands__table tbody tr:last-child .orders__table-cell-date {
+		padding-left: 8px;
+	}
+	.section-balance .orders__table-cell-number {
+		width: 20%;
+	}
+	.section-balance .orders__table-cell-date {
+		width: 30%;
+	}
+	.section-balance .tbrands__table thead th.orders__table-cell-number,
+	.section-balance .tbrands__table thead th.orders__table-cell-date {
+		display: none;
+	}
+	.section-balance .table_head-black {
+		display: block;
+		position: relative;
+		padding-top: 40px;
+	}
+	.section-balance .tbrands__table thead tr {
+		background-color: #3d3a45;
+		display: flex;
+		position: absolute;
+		width: 100%;
+		z-index: 99;
+		top: 0;
+		left: 0;
+	}
+	.section-balance .orders__table-cell-operations {
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		display: flex;
+	}
+}

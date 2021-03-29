@@ -1,0 +1,77 @@
+.cards__proposal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 32px;
+}
+.cards__proposal_txt {
+  margin: 0;
+}
+.cards__proposal .button {
+  padding: 0 15px;
+}
+.button.button_green_empty {
+  color: #56BE8C;
+  border: 2px solid #56BE8C
+}
+.button.button_green_empty:hover {
+    color: #fff;
+    background-color: #56BE8C;
+}
+.modal-proposal {
+  background-color: #56BE8C;
+  text-align: left;
+}
+.modal-proposal .modal_form.hidden {
+  display: none;
+}
+.modal-proposal .form-group + .form-group {
+  margin: 10px 0 0;
+}
+.modal-card.modal-proposal form label {
+  color: #fff;
+}
+.modal-proposal .modal__inner input {
+  padding: 0 10px;
+}
+.modal-proposal .modal-thx {
+  display: none;
+  flex-wrap: wrap;
+  min-height: 217px;
+  padding: 0 20px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.modal-proposal .modal-thx.is-active {
+  display: flex;
+}
+.modal-proposal .modal-thx .icon {
+  margin: 0 0 20px;
+}
+.modal-proposal .modal-thx p {
+  color: #fff;
+  font-size: 16px;
+}
+
+
+/*.icn-mask-viber
+{
+    width: 24px;
+    height: 24px;
+
+    background-color: #000;
+
+    -webkit-mask-image: url('../img/icons/viber.svg');
+            mask-image: url('../img/icons/viber.svg');
+}
+.icn-mask-google_map {
+    width: 24px;
+    height: 24px;
+
+    background-color: #000;
+
+    -webkit-mask-image: url('../img/icons/google_map.svg');
+            mask-image: url('../img/icons/google_map.svg');
+}*/

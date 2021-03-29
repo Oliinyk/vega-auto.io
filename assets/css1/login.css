@@ -1,0 +1,113 @@
+.login .title {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    margin: 0 0 40px;
+}
+.login form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.login .form-group {
+    margin: 0 0 20px;
+    color: #212121;
+}
+.login .form-row-inline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.login .form-group-inline {
+    width: 45%;
+}
+.login .form-row-inline .separate-col {
+    color: #696969;
+    text-align: center;
+    margin: 35px 0 0;
+    width: 10%;
+}
+.login form label {
+    color: #696969;
+    font-size: 14px;
+    margin: 0 7px 5px;
+}
+.login form label.error {
+    color: #BA3939;
+    margin: 5px 0 0;
+}
+.login .form-control {
+    display: block;
+    width: 100%;
+    padding: 7px 8px;
+    font-size: 16px;
+    color: #232326;
+    background: #F9F9F9;
+    border-radius: 1px;
+    border: 1px solid transparent;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    outline: none;
+}
+.login .form-control[name="password"] {
+    padding-right: 35px;
+}
+.login .form-control.error {
+    background: #FFF2F2;
+    border: 1px solid #EC9E9E;
+}
+.toggle-password {
+    position: absolute;
+    right: 7px;
+    top: 34px;
+}
+.toggle-password .pass-close {
+    cursor: pointer;
+    height: 22px;
+    width: 22px;
+}
+.toggle-password .pass-open {
+    cursor: pointer;
+    margin-top: 3px;
+    height: 20px;
+    width: 30px;
+}
+.toggle-password.eye-slash .pass-open {
+    display: none;
+}
+.toggle-password .pass-close {
+    display: none;
+}
+.toggle-password.eye-slash .pass-close {
+    display: block;
+}
+.login .link {
+    color: #2C85C5;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    margin: 0 0 20px;
+}
+.login .button {
+    width: 100%;
+    justify-content: center;
+}
+.login .hidden {
+    display: none;
+}
+.justify-center {
+    justify-content: center;
+}
+.relative {
+    position: relative;
+}
+@media (max-width: 480px) {
+    .login .form-group-inline {
+        width: 100%;
+    }
+    .login .form-row-inline .separate-col {
+        margin: 0 0 10px;
+        width: 100%;
+    }
+}

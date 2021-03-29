@@ -1,0 +1,212 @@
+body,
+html
+{
+	height: 100%;
+}
+body
+{
+	font-family: 'Montserrat';
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.5;
+	margin: 0;
+	text-align: left;
+	color: #000;
+	background-color: #fff;
+}
+@font-face
+{
+	font-family: 'Montserrat';
+	font-weight: normal;
+	font-style: normal;
+
+	src: url('../fonts/Montserrat/Montserrat-Regular.eot?') format('eot'), url('../fonts/Montserrat/Montserrat-Regular.woff') format('woff'), url('../fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+	font-display: swap;
+}
+
+@font-face
+{
+	font-family: 'Montserrat';
+	font-weight: 600;
+	font-style: normal;
+
+	src: url('../fonts/Montserrat/Montserrat-SemiBold.eot?') format('eot'), url('../fonts/Montserrat/Montserrat-SemiBold.woff') format('woff'), url('../fonts/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
+	font-display: swap;
+}
+
+@font-face
+{
+	font-family: 'Montserrat';
+	font-weight: bold;
+	font-style: normal;
+
+	src: url('../fonts/Montserrat/Montserrat-Bold.eot?') format('eot'), url('../fonts/Montserrat/Montserrat-Bold.woff') format('woff'), url('../fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
+	font-display: swap;
+}
+
+@font-face
+{
+	font-family: 'Montserrat';
+	font-weight: 900;
+	font-style: normal;
+
+	src: url('../fonts/Montserrat/Montserrat-Black.eot?') format('eot'), url('../fonts/Montserrat/Montserrat-Black.woff') format('woff'), url('../fonts/Montserrat/Montserrat-Black.ttf') format('truetype');
+	font-display: swap;
+}
+.main-wrap {
+	background: linear-gradient(90deg, #DAF2FF 0%, #61AFD4 100%);
+}
+.inner_404 {
+	background-image: url('../img/404/404.svg');
+	background-position: 100% 80%;
+	background-repeat: no-repeat;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+	margin: 0 auto;
+}
+.inner_404 .title {
+	font-size: 128px;
+	line-height: 1;
+	margin: 0 0 20px;
+}
+.inner_404 .subtitle {
+	font-size: 48px;
+	line-height: 1;
+	max-width: 60%;
+	margin: 0 0 10px;
+}
+.code-text {
+	font-size: 36px;
+}
+.list-title {
+	font-size: 28px;
+	font-weight: 700;
+	margin: 15px 0 0;
+}
+.list {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.list li {
+	font-size: 29px;
+	display: block;
+	margin: 0 0 5px;
+}
+.list li a {
+	color: #0070c1;
+	font-weight: 600;
+	position: relative;
+	text-decoration: none;
+}
+.list li a:hover {
+	text-decoration: underline;
+}
+.inner_404 .list li a:before, .inner_404 .list li a:after {
+	content: '';
+	background-color: #0070c1;
+	position: absolute;
+	top: 14px;
+	right: -21px;
+	height: 3px;
+	width: 15px;
+}
+.inner_404 .list li a:before {
+	transform: rotate(45deg);
+}
+.inner_404 .list li a:after {
+	transform: rotate(-45deg);
+	top: 23px;
+}
+@media (min-width: 992px) {
+	.inner_404 {
+		max-width: 1000px;
+		background-position: 100% 60%;
+		background-size: 50%;
+	}
+}
+@media (min-width: 1200px) {
+	.inner_404 {
+		max-width: 1100px;
+		background-position: 100% 60%;
+		background-size: 50%;
+	}
+}
+@media (min-width: 1400px) {
+	.inner_404 {
+		max-width: 1400px;
+	}
+}
+@media (min-width: 1700px) {
+	.inner_404 {
+		max-width: 1600px;
+	}
+}
+@media (max-width: 991px) {
+	.inner_404 {
+		background-position: 100% 90%;
+		background-size: 55%;
+		max-width: 90%;
+		justify-content: flex-start;
+		padding: 50px 0 0;
+	}
+	.inner_404 .title {
+		font-size: 78px;
+	}
+	.inner_404 .subtitle {
+		font-size: 32px;
+		line-height: 1.2;
+		max-width: 100%;
+	}
+	.code-text {
+		font-size: 26px;
+	}
+	.list-title {
+		font-size: 22px;
+		margin: 15px 0 5px;
+	}
+	.list li {
+		font-size: 24px;
+	}
+	.inner_404 .list li a:before {
+		top: 10px;
+	}
+	.inner_404 .list li a:after {
+		top: 19px;
+	}
+}
+@media (max-width: 575px) {
+	.inner_404 {
+		background-size: 80%;
+	}
+	.inner_404 .title {
+		font-size: 55px;
+	}
+	.inner_404 .subtitle {
+		font-size: 24px;
+	}
+	.code-text {
+		font-size: 22px;
+		margin: 15px 0;
+	}
+	.list-title {
+		font-size: 18px;
+	}
+	.list li {
+		font-size: 19px;
+	}
+	.inner_404 .list li a:before, .inner_404 .list li a:after {
+		top: 8px;
+		right: -15px;
+		height: 2px;
+		width: 12px;
+	}
+	.inner_404 .list li a:after {
+		top: 15px;
+	}
+}
