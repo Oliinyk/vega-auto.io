@@ -502,7 +502,7 @@
             <span class="tooltip_arrow"></span>
         </p>
       </a>
-      <a class="call-btn video-ico open-modal tooltipOpenJs" href="#videoModal">
+      <!-- <a class="call-btn video-ico open-modal tooltipOpenJs" href="#videoModal">
         <svg width="32" height="20" viewBox="0 0 32 20" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M22.375 6.8125L30.875 1.5V18.5L22.375 13.1875V6.8125ZM1.125 1.5V18.5H22.375V1.5H1.125Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
@@ -510,7 +510,22 @@
             <span>Видеочат с консультантом</span>
             <span class="tooltip_arrow"></span>
         </p>
+      </a> -->
+
+      <a class="call-btn question-ico open-modal" href="#questionModal">
+        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="1280.000000pt" height="1280.000000pt" viewBox="0 0 1280.000000 1280.000000"
+           preserveAspectRatio="xMidYMid meet">
+          <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+          <path d="M5970 12090 c-417 -39 -761 -113 -1094 -236 -154 -56 -404 -178 -550 -267 -328 -202 -651 -502 -876 -817 -340 -475 -557 -1060 -660 -1783 -12 -81 -19 -151 -16 -156 3 -5 47 -34 96 -65 l91 -56 672 -80 c370 -44 685 -81 702 -83 l29 -2 28 150 c166 905 518 1459 1115 1759 267 133 553 196 900 196 485 0 899 -141 1253 -427 171 -139 357 -351 469 -537 238 -393 302 -907 165 -1326 -39 -120 -137 -307 -215 -410 -166 -221 -419 -479 -819 -835 -595 -531 -865 -813 -1076 -1125 -408 -602 -572 -1262 -547 -2203 l6 -247 691 2 691 3 2 105 c6 302 37 709 69 895 57 336 189 636 393 890 94 118 451 467 766 750 914 822 1312 1312 1528 1882 223 586 235 1285 32 1901 -150 453 -433 881 -816 1231 -544 498 -1190 775 -2044 876 -162 20 -828 29 -985 15z"/>
+          <path d="M5581 2590 c-20 -98 -21 -121 -21 -920 l0 -820 810 0 810 0 0 828 c-1 740 -3 836 -18 917 l-17 90 -771 3 -771 2 -22 -100z"/>
+          </g>
+        </svg>
+        <p class="tooltip_content_call custom_tooltip">
+            <span>Задать вопрос</span>
+            <span class="tooltip_arrow"></span>
+        </p>
       </a>
+
       <a class="call-btn call-ico open-modal tooltipOpenJs" href="#callModal">
         <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M33.319 19.9957L14.0043 0.681014C13.5696 0.246324 12.9683 0 12.3669 0C11.7656 0 11.1643 0.239079 10.7296 0.681014L0.681014 10.7224C0.239079 11.157 0 11.7439 0 12.3597C0 12.9755 0.239079 13.5623 0.681014 13.997L19.9957 33.319C20.4304 33.7609 21.0173 34 21.6331 34C22.2489 34 22.8357 33.7609 23.2704 33.319L33.319 23.2704C33.7609 22.8357 34 22.2489 34 21.6331C34 21.0173 33.7609 20.4377 33.319 19.9957ZM1.76774 12.9103C1.62284 12.7654 1.54315 12.5698 1.54315 12.3669C1.54315 12.1641 1.62284 11.9685 1.76774 11.8236L11.8163 1.76774C11.9612 1.62284 12.1568 1.54315 12.3597 1.54315C12.5625 1.54315 12.7582 1.62284 12.903 1.76774L29.7473 18.612L18.612 29.7545L1.76774 12.9103ZM32.2323 22.1837L22.1837 32.2323C21.8939 32.5221 21.3795 32.5221 21.0897 32.2323L19.7059 30.8485L30.8485 19.7059L32.2323 21.0897C32.3772 21.2346 32.4569 21.4302 32.4569 21.6331C32.4569 21.8359 32.3772 22.0388 32.2323 22.1837Z" fill="white"/>
@@ -550,7 +565,7 @@
   </div>
     
   <!-- Modal Video -->
-  <div class="modal-call modal-call-video modal-card mfp-hide" id="videoModal">
+  <!-- <div class="modal-call modal-call-video modal-card mfp-hide" id="videoModal">
     <h3 class="modal__title">Онлайн консультация</h3>
       <div class="modal__inner">
           <picture><img src="assets/img/icons/user_call.svg" alt="Онлайн консультация"></picture>
@@ -558,6 +573,23 @@
       <form class="modal_form" action="#!">
         <a class="modal_sub_btn" href="#"><span>Соединиться</span></button>
       </form>
+  </div> -->
+
+  <!-- Modal Question -->
+  <div class="modal-call modal-question modal-card mfp-hide" id="questionModal">
+    <form class="modal_form" action="#!">
+      <div class="modal__inner">
+        <div class="form-group">
+          <label for="">Ваш номер телефона</label>
+          <input type="text" name="qwery" required>
+        </div>
+        <div class="form-group">
+          <label for="">Что вас интересует?</label>
+          <textarea required></textarea>
+        </div>
+      </div>
+      <button class="modal_sub_btn" type="button"><span>Отправить</span></button>
+    </form>
   </div>
 
   <!-- Modal Call -->
