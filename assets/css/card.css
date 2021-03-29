@@ -56,7 +56,36 @@
   color: #fff;
   font-size: 16px;
 }
+/*modal-question*/
 .question-ico svg {
   max-height: 32px;
   max-width: 32px;
+}
+.modal-card.modal-question {
+  background-color: #56BE8C;
+  text-align: left;
+  max-width: 330px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+}
+.modal-question form label {
+  color: #fff;
+}
+.modal-question .modal__inner input {
+  padding: 0 10px;
+}
+.modal-question .modal__inner textarea {
+  width: 100%;
+  border: 0;
+  height: 90px;
+}
+.modal-question .form-group + .form-group {
+  margin: 10px 0 0;
+}
+.modal-question .modal_sub_btn {
+  font-size: 16px;
+  font-weight: 500;
+  max-width: 126px;
+  margin: 12px 0 0 auto;
 }
