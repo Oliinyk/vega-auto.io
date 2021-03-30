@@ -24,7 +24,8 @@
   background-color: #56BE8C;
   text-align: left;
 }
-.modal-proposal .modal_form.hidden {
+.modal_form.hidden,
+.modal_form_wrap.hidden {
   display: none;
 }
 .modal-proposal .form-group + .form-group {
@@ -36,8 +37,10 @@
 .modal-proposal .modal__inner input {
   padding: 0 10px;
 }
-.modal-proposal .modal-thx {
+.modal-card .modal-thx {
   display: none;
+}
+.modal-proposal .modal-thx {
   flex-wrap: wrap;
   min-height: 217px;
   padding: 0 20px;
@@ -46,7 +49,7 @@
   align-items: center;
   text-align: center;
 }
-.modal-proposal .modal-thx.is-active {
+.modal-thx.is-active {
   display: flex;
 }
 .modal-proposal .modal-thx .icon {
@@ -88,4 +91,36 @@
   font-weight: 500;
   max-width: 126px;
   margin: 12px 0 0 auto;
+}
+.modal-question .modal-thx {
+  flex-wrap: wrap;
+  min-height: 217px;
+  padding: 0 20px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.modal-question .modal-thx .icon {
+  margin: 0 0 20px;
+}
+.modal-question .modal-thx p {
+  color: #fff;
+  font-size: 16px;
+}
+.modal-call-phone .modal-thx {
+  flex-wrap: wrap;
+  min-height: 193px;
+  padding: 0 20px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.modal-call-phone .modal-thx .icon {
+  margin: 0 0 20px;
+}
+.modal-call-phone .modal-thx p {
+  color: #fff;
+  font-size: 16px;
 }

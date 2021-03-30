@@ -213,6 +213,10 @@
   padding-right: 30px;
   padding-top: 20px;
 }
+.modal_form.hidden,
+.modal_form_wrap.hidden {
+  display: none;
+}
 .modal-question form label {
   color: #fff;
 }
@@ -232,4 +236,42 @@
   font-weight: 500;
   max-width: 126px;
   margin: 12px 0 0 auto;
+}
+.modal-card .modal-thx {
+  display: none;
+}
+.modal-question .modal-thx {
+  flex-wrap: wrap;
+  min-height: 217px;
+  padding: 0 20px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.modal-thx.is-active {
+  display: flex;
+}
+.modal-question .modal-thx .icon {
+  margin: 0 0 20px;
+}
+.modal-question .modal-thx p {
+  color: #fff;
+  font-size: 16px;
+}
+.modal-call-phone .modal-thx {
+  flex-wrap: wrap;
+  min-height: 193px;
+  padding: 0 20px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.modal-call-phone .modal-thx .icon {
+  margin: 0 0 20px;
+}
+.modal-call-phone .modal-thx p {
+  color: #fff;
+  font-size: 16px;
 }
